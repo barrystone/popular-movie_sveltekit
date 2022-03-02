@@ -19,16 +19,13 @@
 </script>
 
 <script>
+	import PopularMovies from '../component/PopularMovies.svelte';
+
 	export let popular;
 </script>
 
-<h1>Fetch API</h1>
+<h1>Home</h1>
 
-<h3>Popular Movie title</h3>
-<ul>
-	{#each popular as mv}
-		<li>{mv.original_title}</li>
-	{/each}
-</ul>
+<PopularMovies {popular} />
 
 <a href="/about">about page</a>
