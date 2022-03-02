@@ -3,8 +3,10 @@
 </script>
 
 <div class="movie-card">
-	<img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />
-	<div class="dscription">
+	<a href={`movie/${movie.id}`}>
+		<img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />
+	</a>
+	<div class="description">
 		<h2>{movie.title}</h2>
 		<p>{movie.release_date}</p>
 	</div>
@@ -16,7 +18,6 @@
 		height: 30vh;
 		object-fit: cover;
 		border-radius: 1rem;
-		/* margin-bottom: 1rem; */
 	}
 	h2 {
 		font-size: 0.9rem;

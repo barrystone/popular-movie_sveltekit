@@ -24,8 +24,7 @@
 	export let popular;
 </script>
 
-<h1>Home</h1>
-
-<PopularMovies {popular} />
-
-<a href="/about">about page</a>
+<main>
+	<h1>Home</h1>
+	<PopularMovies {popular} />
+</main>
