@@ -1,9 +1,9 @@
 <script context="module">
 	export async function load({ fetch }) {
-		const base = 'https://api.themoviedb.org/3';
-
 		const res = await fetch(
-			`${base}/movie/popular?api_key=${import.meta.env.VITE_TMDB_API_KEY}&language=en-US&page=1`
+			`${import.meta.env.VITE_TMDB_API_BASE}/movie/popular?api_key=${
+				import.meta.env.VITE_TMDB_API_KEY
+			}&language=en-US&page=1`
 		);
 		const data = await res.json();
 		// console.log('API', data);
