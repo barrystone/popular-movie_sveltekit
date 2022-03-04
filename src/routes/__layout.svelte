@@ -1,4 +1,5 @@
 <script>
+	import Nav from '..//components/Nav.svelte';
 	import '../global.css';
 </script>
 
@@ -6,6 +7,5 @@
 	<title>Popular Movie</title>
 </svelte:head>
 
-<nav>=== NAV ===</nav>
-
+<Nav />
 <slot />

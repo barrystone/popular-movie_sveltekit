@@ -19,12 +19,11 @@
 </script>
 
 <script>
-	import PopularMovies from '../component/PopularMovies.svelte';
+	import PopularMovies from '../components/PopularMovies.svelte';
 
 	export let popular;
 </script>
 
 <main>
-	<h1>Home</h1>
 	<PopularMovies {popular} />
 </main>
