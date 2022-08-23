@@ -47,8 +47,7 @@
 	</div>
 </div>
 
-<a href="/">back to home</a>
-
+<!-- <a href="/">back to home</a> -->
 <style>
 	h1 {
 		padding: 1rem 0rem 2rem;

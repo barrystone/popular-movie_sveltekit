@@ -7,7 +7,6 @@
 		);
 		const data = await res.json();
 		// console.log('API', data);
-
 		if (res.ok) {
 			return {
 				props: {
@@ -19,13 +18,14 @@
 </script>
 
 <script>
+	import { fly } from 'svelte/transition';
 	import SearchMovies from '../components/SearchMovies.svelte';
 	import PopularMovies from '../components/PopularMovies.svelte';
 
 	export let popular;
 </script>
 
-<main>
+<main in:fly={{ y: 50, duration: 500 }} out:fly={{ duration: 500 }}>
 	<SearchMovies />
 	<PopularMovies {popular} />
 </main>
