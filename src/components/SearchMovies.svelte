@@ -1,12 +1,17 @@
 <script>
+	import { goto } from '$app/navigation';
 	let text = '';
-
 	let active = false;
 
 	const cancelInactive = () => (text ? (active = true) : (active = false));
+
+	const submitSearch = () => {
+		// href = "/search/+ inputValue"
+		goto('/search/' + text);
+	};
 </script>
 
-<form class="search">
+<form class="search" on:submit|preventDefault={submitSearch}>
 	{#if !active}
 		<label for="search_movie">Click to search...</label>
 	{/if}
