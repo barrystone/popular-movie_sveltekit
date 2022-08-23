@@ -37,9 +37,11 @@
 
 <style>
 	.search {
-		position: relative;
+		position: absolute;
+		right: 1rem;
+		top: 0;
 		width: 30%;
-		margin: 1rem;
+		/* margin: 1rem; */
 		background-color: antiquewhite;
 	}
 	button {

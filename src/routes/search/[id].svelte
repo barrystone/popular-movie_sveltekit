@@ -44,6 +44,7 @@
 		grid-column-gap: 0.5rem;
 		grid-row-gap: 1.5rem;
 		height: 20vh;
+		margin: 3rem 1rem;
 	}
 
 	h3 {
