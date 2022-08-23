@@ -10,9 +10,30 @@
 		if (res.ok) {
 			return {
 				props: {
-					searchMovie: data.results
+					searchedMovie: data.results
 				}
 			};
 		}
 	}
 </script>
+
+<script>
+	import MovieCard from '../../components/MovieCard.svelte';
+	export let searchedMovie;
+</script>
+
+<div class="searched-movies">
+	{#each searchedMovie as movie}
+		<MovieCard {movie} />
+	{/each}
+</div>
+
+<style>
+	.searched-movies {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		grid-column-gap: 0.5rem;
+		grid-row-gap: 1.5rem;
+		height: 20vh;
+	}
+</style>
