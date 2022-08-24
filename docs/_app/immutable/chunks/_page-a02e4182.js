@@ -1,0 +1,1 @@
+async function a({fetch:e}){return{popular:(await(await e("https://api.themoviedb.org/3/movie/popular?api_key=22a2b619b5fe2221f6c9e2a24e7a28dd&language=en-US&page=1")).json()).results}}const r=Object.freeze(Object.defineProperty({__proto__:null,load:a},Symbol.toStringTag,{value:"Module"}));export{r as _,a as l};

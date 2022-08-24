@@ -1,0 +1,1 @@
+async function o({fetch:e,params:a}){const t=a.id;return{movieDetail:await(await e(`https://api.themoviedb.org/3/movie/${t}?api_key=22a2b619b5fe2221f6c9e2a24e7a28dd&language=en-US`)).json()}}const r=Object.freeze(Object.defineProperty({__proto__:null,load:o},Symbol.toStringTag,{value:"Module"}));export{r as _,o as l};

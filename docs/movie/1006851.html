@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="" />
+	<link rel="icon" href="/svelte_testing/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="content-security-policy" content=""><title>Popular Movie</title>
+	<link href="/svelte_testing/_app/immutable/assets/+layout-c2d7af1c.css" rel="stylesheet">
+	<link href="/svelte_testing/_app/immutable/assets/+page-af25702d.css" rel="stylesheet">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/start-051b9d63.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/index-b4eb67ee.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/singletons-3a39bf56.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/paths-6cd3a76e.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/_layout.svelte-684719fb.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/stores-5ff09bab.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/movie/_id_/_page.svelte-91656dc2.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/modules/pages/movie/_id_/_page.js-70ed0c36.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/_page-3a856f02.js">
+</head>
+
+<body>
+	
+
+
+
+
+<nav class="svelte-1e9i6a1"><a href="/svelte_testing/" class="svelte-1e9i6a1">Back to Home</a>
+</nav>
+<div class="movie-details svelte-s71tqd"><div class="img-container svelte-s71tqd"><img src="https://image.tmdb.org/t/p/original//bL7VIHQ4Nl0hZMw8ZeX6byoEEZJ.jpg" alt="Office Invasion" class="svelte-s71tqd"></div>
+  <div class="txt-container"><h1 class="svelte-s71tqd">Office Invasion</h1>
+    <p class="overview svelte-s71tqd">Three friends come together to defend their valuable mining company from…aliens?! What could possibly go wrong?</p>
+    <p class="svelte-s71tqd"><span class="svelte-s71tqd">Release date:</span> 
+      2022-08-10
+      <br>
+      <span class="svelte-s71tqd">Budget:</span>  $0
+      <br>
+      <span class="svelte-s71tqd">Rating:</span>  $5.929
+      <br>
+      <span class="svelte-s71tqd">Runtime:</span>  $0mins
+      <br></p></div></div>
+
+
+
+
+		<script type="module" data-sveltekit-hydrate="1ry2i3n">
+		import { set_public_env, start } from "/svelte_testing/_app/immutable/start-051b9d63.js";
+
+		set_public_env({});
+
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="1ry2i3n"]').parentNode,
+			paths: {"base":"/svelte_testing","assets":"/svelte_testing"},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				node_ids: [0, 4],
+				params: {id:"1006851"},
+				routeId: "movie/[id]"
+			}
+		});
+	</script>
+	<script type="application/json" sveltekit:data-type="data" sveltekit:data-url="https://api.themoviedb.org/3/movie/1006851?api_key=22a2b619b5fe2221f6c9e2a24e7a28dd&amp;language=en-US">{"status":200,"statusText":"OK","headers":{"access-control-allow-methods":"GET, HEAD, POST, PUT, DELETE, OPTIONS","access-control-allow-origin":"*","access-control-expose-headers":"ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range","alt-svc":"h3=\":443\"; ma=86400","cache-control":"public, max-age=28800","connection":"keep-alive","content-encoding":"gzip","content-type":"application/json;charset=utf-8","date":"Wed, 24 Aug 2022 10:57:50 GMT","server":"openresty","transfer-encoding":"chunked","vary":"Accept-Encoding","via":"1.1 b628f98550657c74cdb098257ee7a19a.cloudfront.net (CloudFront)","x-amz-cf-id":"hqg_eV5cpl8K336A-Nu9Uks4-7RA-qt8yvQvxDxttDnV5El5Xho37g==","x-amz-cf-pop":"TPE51-C1","x-cache":"Miss from cloudfront","x-memc":"HIT","x-memc-age":"10565","x-memc-expires":"6005","x-memc-key":"902d98ada82c400e423e94d46974adc879349ce7"},"body":"{\"adult\":false,\"backdrop_path\":\"/bL7VIHQ4Nl0hZMw8ZeX6byoEEZJ.jpg\",\"belongs_to_collection\":null,\"budget\":0,\"genres\":[{\"id\":878,\"name\":\"Science Fiction\"},{\"id\":35,\"name\":\"Comedy\"},{\"id\":28,\"name\":\"Action\"}],\"homepage\":\"https://www.netflix.com/title/81590587\",\"id\":1006851,\"imdb_id\":\"tt21440188\",\"original_language\":\"en\",\"original_title\":\"Office Invasion\",\"overview\":\"Three friends come together to defend their valuable mining company from…aliens?! What could possibly go wrong?\",\"popularity\":2408.969,\"poster_path\":\"/kDC9Q3kiVaxrJijaGeZ8ZB2ZoiX.jpg\",\"production_companies\":[],\"production_countries\":[{\"iso_3166_1\":\"ZA\",\"name\":\"South Africa\"}],\"release_date\":\"2022-08-10\",\"revenue\":0,\"runtime\":0,\"spoken_languages\":[{\"english_name\":\"English\",\"iso_639_1\":\"en\",\"name\":\"English\"}],\"status\":\"Released\",\"tagline\":\"\",\"title\":\"Office Invasion\",\"video\":false,\"vote_average\":5.929,\"vote_count\":42}"}</script>
+</body>
+
+</html>
