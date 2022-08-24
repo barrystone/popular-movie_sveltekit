@@ -18,6 +18,11 @@
 
 <nav>
   <a href={base}>
+    {#if $page.url.pathname === (`${base}` || `${base}/`)}
+      Home
+    {:else}
+      Back to Home
+    {/if}
     {title}
   </a>
 
