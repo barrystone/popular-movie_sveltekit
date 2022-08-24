@@ -5,13 +5,23 @@
   // onMount(() => {
   // 	console.log($page);
   // });
-  $: title = $page.url.pathname === `${base}` ? 'HOME' : 'Back to Home';
+  $: title =
+    $page.url.pathname === (`${base}` || `${base}/`) ? 'HOME' : 'Back to Home';
+
+  // testing path
+  console.log('b_path', $page.url.pathname);
+  const tt = () => {
+    console.log('nav_title_path', $page.url.pathname);
+  };
+  //
 </script>
 
 <nav>
   <a href={base}>
     {title}
   </a>
+
+  <button on:click={tt}>test</button>
 </nav>
 
 <style>

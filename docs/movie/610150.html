@@ -9,13 +9,13 @@
 	<meta http-equiv="content-security-policy" content=""><title>Popular Movie</title>
 	<link href="/svelte_testing/_app/immutable/assets/+layout-c2d7af1c.css" rel="stylesheet">
 	<link href="/svelte_testing/_app/immutable/assets/+page-af25702d.css" rel="stylesheet">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/start-303a6737.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/index-b4eb67ee.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/singletons-418d216c.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/start-17cb6b98.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/index-671f2536.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/singletons-346fa836.js">
 	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/paths-6cd3a76e.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/_layout.svelte-2183b2cf.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/stores-9d4b6ae6.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/movie/_slug_/_page.svelte-25f38b18.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/_layout.svelte-c9733099.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/stores-26297e64.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/movie/_slug_/_page.svelte-494b4b7e.js">
 	<link rel="modulepreload" href="/svelte_testing/_app/immutable/modules/pages/movie/_slug_/_page.js-4c24450c.js">
 	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/_page-6a99f9a5.js">
 </head>
@@ -27,6 +27,8 @@
 
 
 <nav class="svelte-1e9i6a1"><a href="/svelte_testing" class="svelte-1e9i6a1">Back to Home</a>
+
+  <button>test</button>
 </nav>
 <div class="movie-details svelte-s71tqd"><div class="img-container svelte-s71tqd"><img src="https://image.tmdb.org/t/p/original//ugS5FVfCI3RV0ZwZtBV3HAV75OX.jpg" alt="Dragon Ball Super: Super Hero" class="svelte-s71tqd"></div>
   <div class="txt-container"><h1 class="svelte-s71tqd">Dragon Ball Super: Super Hero</h1>
@@ -44,13 +46,13 @@
 
 
 
-		<script type="module" data-sveltekit-hydrate="f9otlc">
-		import { set_public_env, start } from "/svelte_testing/_app/immutable/start-303a6737.js";
+		<script type="module" data-sveltekit-hydrate="3dg209">
+		import { set_public_env, start } from "/svelte_testing/_app/immutable/start-17cb6b98.js";
 
 		set_public_env({});
 
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="f9otlc"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="3dg209"]').parentNode,
 			paths: {"base":"/svelte_testing","assets":"/svelte_testing"},
 			route: true,
 			spa: false,
@@ -64,8 +66,7 @@
 			}
 		});
 	</script>
-	<script type="application/json" sveltekit:data-type="data" sveltekit:data-url="https://api.themoviedb.org/3/movie/610150?api_key=22a2b619b5fe2221f6c9e2a24e7a28dd&amp;language=en-US">{"status":200,"statusText":"OK","headers":{"access-control-allow-methods":"GET, HEAD, POST, PUT, DELETE, OPTIONS","access-control-allow-origin":"*","access-control-expose-headers":"ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range","age":"8677","alt-svc":"h3=\":443\"; ma=86400","cache-control":"public, max-age=28800","connection":"keep-alive","content-encoding":"gzip","content-type":"application/json;charset=utf-8","date":"Wed, 24 Aug 2022 10:57:46 GMT","server":"openresty","transfer-encoding":"chunked","vary":"Accept-Encoding","via":"1.1 52ca47c2c23bcce484a3eafac368baea.cloudfront.net (CloudFront)","x-amz-cf-id":"0Cp7efmsvJwcjUq_xJYmkWNczpq6rzKho1vK8oTvbdW-7dFZk5VRsw==","x-amz-cf-pop":"TPE51-C1","x-cache":"Hit from cloudfront","x-memc":"HIT","x-memc-age":"5033","x-memc-expires":"9894","x-memc-key":"ae218610e0ddd58c76d3003b9682499106bc62a1"},"body":"{\"adult\":false,\"backdrop_path\":\"/ugS5FVfCI3RV0ZwZtBV3HAV75OX.jpg\",\"belongs_to_collection\":{\"id\":620873,\"name\":\"Dragon Ball Super Collection\",\"poster_path\":\"/38fLvtJHsU9iH7NQ2YQIMZuWIm8.jpg\",\"backdrop_path\":\"/hBzDzjMesdB3SoxFaSjGK3rFRVG.jpg\"},\"budget\":0,\"genres\":[{\"id\":16,\"name\":\"Animation\"},{\"id\":878,\"name\":\"Science Fiction\"},{\"id\":28,\"name\":\"Action\"}],\"homepage\":\"https://www.2022dbs-global.com\",\"id\":610150,\"imdb_id\":\"tt14614892\",\"original_language\":\"ja\",\"original_title\":\"ドラゴンボール超 スーパーヒーロー\",\"overview\":\"The Red Ribbon Army, an evil organization that was once destroyed by Goku in the past, has been reformed by a group of people who have created new and mightier Androids, Gamma 1 and Gamma 2, and seek vengeance against Goku and his family.\",\"popularity\":7949.533,\"poster_path\":\"/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg\",\"production_companies\":[{\"id\":2918,\"logo_path\":\"/gyEWUBWwqrm3H5T2hkERD9LxpOq.png\",\"name\":\"Shueisha\",\"origin_country\":\"JP\"},{\"id\":3341,\"logo_path\":\"/dTG5dXE1kU2mpmL9BNnraffckLU.png\",\"name\":\"Fuji Television Network\",\"origin_country\":\"JP\"},{\"id\":5542,\"logo_path\":\"/ayE4LIqoAWotavo7xdvYngwqGML.png\",\"name\":\"Toei Animation\",\"origin_country\":\"JP\"},{\"id\":12502,\"logo_path\":\"/aDcFy26DtVbyZIFOZNTLsooWH5X.png\",\"name\":\"Bandai Namco Entertainment\",\"origin_country\":\"JP\"},{\"id\":24051,\"logo_path\":null,\"name\":\"Bird Studios\",\"origin_country\":\"JP\"}],\"production_countries\":[{\"iso_3166_1\":\"JP\",\"name\":\"Japan\"}],\"release_date\":\"2022-06-11\",\"revenue\":45000000,\"runtime\":99,\"spoken_languages\":[{\"english_name\":\"Japanese\",\"iso_639_1\":\"ja\",\"name\":\"日本語\"}],\"status\":\"Released\",\"tagline\":\"A super awakening and calamity is born.\",\"title\":\"Dragon Ball Super: Super Hero\",\"video\":false,\"vote_average\":7.597,\"vote_count\":144}"}</script>
-	<script type="application/json" sveltekit:data-type="server_data">[null,{"type":"data","data":{"movieDetail":null},"uses":{}}]</script>
+	<script type="application/json" sveltekit:data-type="data" sveltekit:data-url="https://api.themoviedb.org/3/movie/610150?api_key=22a2b619b5fe2221f6c9e2a24e7a28dd&amp;language=en-US">{"status":200,"statusText":"OK","headers":{"access-control-allow-methods":"GET, HEAD, POST, PUT, DELETE, OPTIONS","access-control-allow-origin":"*","access-control-expose-headers":"ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range","age":"10155","alt-svc":"h3=\":443\"; ma=86400","cache-control":"public, max-age=28800","connection":"keep-alive","content-encoding":"gzip","content-type":"application/json;charset=utf-8","date":"Wed, 24 Aug 2022 10:57:46 GMT","server":"openresty","transfer-encoding":"chunked","vary":"Accept-Encoding","via":"1.1 b628f98550657c74cdb098257ee7a19a.cloudfront.net (CloudFront)","x-amz-cf-id":"ziVGGc4oQSU22zfG_bol8SA_EfsnrWUpfCQ5CmtDBmDpVYVRn9AixA==","x-amz-cf-pop":"TPE51-C1","x-cache":"Hit from cloudfront","x-memc":"HIT","x-memc-age":"5033","x-memc-expires":"9894","x-memc-key":"ae218610e0ddd58c76d3003b9682499106bc62a1"},"body":"{\"adult\":false,\"backdrop_path\":\"/ugS5FVfCI3RV0ZwZtBV3HAV75OX.jpg\",\"belongs_to_collection\":{\"id\":620873,\"name\":\"Dragon Ball Super Collection\",\"poster_path\":\"/38fLvtJHsU9iH7NQ2YQIMZuWIm8.jpg\",\"backdrop_path\":\"/hBzDzjMesdB3SoxFaSjGK3rFRVG.jpg\"},\"budget\":0,\"genres\":[{\"id\":16,\"name\":\"Animation\"},{\"id\":878,\"name\":\"Science Fiction\"},{\"id\":28,\"name\":\"Action\"}],\"homepage\":\"https://www.2022dbs-global.com\",\"id\":610150,\"imdb_id\":\"tt14614892\",\"original_language\":\"ja\",\"original_title\":\"ドラゴンボール超 スーパーヒーロー\",\"overview\":\"The Red Ribbon Army, an evil organization that was once destroyed by Goku in the past, has been reformed by a group of people who have created new and mightier Androids, Gamma 1 and Gamma 2, and seek vengeance against Goku and his family.\",\"popularity\":7949.533,\"poster_path\":\"/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg\",\"production_companies\":[{\"id\":2918,\"logo_path\":\"/gyEWUBWwqrm3H5T2hkERD9LxpOq.png\",\"name\":\"Shueisha\",\"origin_country\":\"JP\"},{\"id\":3341,\"logo_path\":\"/dTG5dXE1kU2mpmL9BNnraffckLU.png\",\"name\":\"Fuji Television Network\",\"origin_country\":\"JP\"},{\"id\":5542,\"logo_path\":\"/ayE4LIqoAWotavo7xdvYngwqGML.png\",\"name\":\"Toei Animation\",\"origin_country\":\"JP\"},{\"id\":12502,\"logo_path\":\"/aDcFy26DtVbyZIFOZNTLsooWH5X.png\",\"name\":\"Bandai Namco Entertainment\",\"origin_country\":\"JP\"},{\"id\":24051,\"logo_path\":null,\"name\":\"Bird Studios\",\"origin_country\":\"JP\"}],\"production_countries\":[{\"iso_3166_1\":\"JP\",\"name\":\"Japan\"}],\"release_date\":\"2022-06-11\",\"revenue\":45000000,\"runtime\":99,\"spoken_languages\":[{\"english_name\":\"Japanese\",\"iso_639_1\":\"ja\",\"name\":\"日本語\"}],\"status\":\"Released\",\"tagline\":\"A super awakening and calamity is born.\",\"title\":\"Dragon Ball Super: Super Hero\",\"video\":false,\"vote_average\":7.597,\"vote_count\":144}"}</script>
 </body>
 
 </html>

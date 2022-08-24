@@ -5,8 +5,6 @@
   export let popular;
 </script>
 
-<p>test</p>
-
 <h3>
   Popular movies
   <SearchMovies />
