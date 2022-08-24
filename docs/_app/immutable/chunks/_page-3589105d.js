@@ -1,0 +1,1 @@
+let o="Marvel";async function r({fetch:a}){const e=await a("https://api.themoviedb.org/3/movie/popular?api_key=22a2b619b5fe2221f6c9e2a24e7a28dd&language=en-US&page=1"),t=await e.json();if(e.ok)return{popular:t.results,searchMovieText:o}}const l=Object.freeze(Object.defineProperty({__proto__:null,load:r},Symbol.toStringTag,{value:"Module"}));export{l as _,r as l};

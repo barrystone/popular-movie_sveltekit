@@ -11,13 +11,6 @@
       ? //  === (`${base}` || `${base}/`)
         'HOME'
       : 'Back to Home';
-
-  console.log(
-    $page.url.pathname.startsWith(base),
-    $page.url.pathname.length,
-    base.length + 1
-  );
-  //
 </script>
 
 <nav>
