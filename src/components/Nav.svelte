@@ -10,6 +10,7 @@
 
   // testing path
   console.log('b_path', $page.url.pathname);
+  console.log('${base}/', `${base}/`);
   const tt = () => {
     console.log('nav_title_path', $page.url.pathname);
   };

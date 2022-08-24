@@ -3,7 +3,8 @@
   import { fly } from 'svelte/transition';
   import { base } from '$app/paths';
 
-  let text = '';
+  export let searchMovieText;
+  let text = searchMovieText ? searchMovieText : '';
   let active = false;
 
   const cancelInactive = () => (text ? (active = true) : (active = false));
@@ -19,7 +20,7 @@
     <label
       in:fly={{ y: -10, duration: 500 }}
       out:fly={{ y: -10, duration: 500 }}
-      for="search_movie">Click to search...</label
+      for="search_movie">Click to search... <span>ex: Marvel</span></label
     >
   {/if}
   <input
@@ -73,7 +74,7 @@
     font-size: 1rem;
     font-family: inherit;
     outline: none;
-    color: #fff;
+    color: transparent;
     font-weight: bold;
     border-radius: 10px;
     padding: 1rem;
@@ -88,8 +89,9 @@
     }
   }
   label {
+    width: 100%;
     position: absolute;
-    font-size: 0.8rem;
+    font-size: 1rem;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
@@ -97,7 +99,13 @@
     color: #fff;
     padding: 0rem 1rem;
   }
+
+  label span {
+    float: right;
+    font-size: 0.8rem;
+  }
   input.selected {
+    color: #fff;
     background: darkslategray;
   }
 </style>

@@ -2,12 +2,12 @@
   import MovieCard from './MovieCard.svelte';
   import SearchMovies from '../components/SearchMovies.svelte';
 
-  export let popular;
+  export let popular, searchMovieText;
 </script>
 
 <h3>
   Popular movies
-  <SearchMovies />
+  <SearchMovies {searchMovieText} />
 </h3>
 <div class="popular-movies">
   {#each popular as movie}
