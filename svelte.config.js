@@ -17,7 +17,7 @@ const config = {
       fallback: null
     }),
     paths: {
-      base: dev ? '' : '/svelte_testing'
+      base: dev ? '' : '/popular-movie_sveltekit'
     }
   }
 };

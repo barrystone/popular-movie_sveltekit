@@ -1,0 +1,1 @@
+import{_ as a}from"./_page-3589105d.js";import{default as f}from"../components/pages/_page.svelte-b403a7ac.js";import"./index-b4eb67ee.js";import"./MovieCard-65cc8951.js";import"./paths-6cd3a76e.js";import"./singletons-a1560cef.js";export{f as component,a as shared};
