@@ -6,28 +6,24 @@
   // 	console.log($page);
   // });
   $: title =
-    $page.url.pathname === (`${base}` || `${base}/`) ? 'HOME' : 'Back to Home';
+    $page.url.pathname.startsWith(base) &&
+    $page.url.pathname.length <= base.length + 1
+      ? //  === (`${base}` || `${base}/`)
+        'HOME'
+      : 'Back to Home';
 
-  // testing path
-  console.log('b_path', $page.url.pathname);
-  console.log('${base}/', `${base}/`);
-  const tt = () => {
-    console.log('nav_title_path', $page.url.pathname);
-  };
+  console.log(
+    $page.url.pathname.startsWith(base),
+    $page.url.pathname.length,
+    base.length + 1
+  );
   //
 </script>
 
 <nav>
   <a href={base}>
-    {#if $page.url.pathname === (`${base}` || `${base}/`)}
-      Home
-    {:else}
-      Back to Home
-    {/if}
     {title}
   </a>
-
-  <button on:click={tt}>test</button>
 </nav>
 
 <style>

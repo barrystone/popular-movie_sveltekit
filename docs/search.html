@@ -8,13 +8,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="content-security-policy" content=""><title>Popular Movie</title>
 	<link href="/svelte_testing/_app/immutable/assets/+layout-c2d7af1c.css" rel="stylesheet">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/start-04efb02e.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/index-671f2536.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/singletons-1e669110.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/start-37b4d617.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/index-b4eb67ee.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/singletons-53dd9d82.js">
 	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/paths-6cd3a76e.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/_layout.svelte-462a00ed.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/stores-32d1acbb.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/search/_page.svelte-0a9cac3a.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/_layout.svelte-44beb47e.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/stores-5f0e6914.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/search/_page.svelte-ba8eb183.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/modules/pages/search/_page.js-d751e750.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/_page-c7779372.js">
 </head>
 
 <body>
@@ -23,21 +25,18 @@
 
 
 
-<nav class="svelte-1e9i6a1"><a href="/svelte_testing" class="svelte-1e9i6a1">Back to Home
-    Back to Home</a>
-
-  <button>test</button>
+<nav class="svelte-1e9i6a1"><a href="/svelte_testing" class="svelte-1e9i6a1">Back to Home</a>
 </nav>
 <h1>Search</h1>
 
 
-		<script type="module" data-sveltekit-hydrate="17japc2">
-		import { set_public_env, start } from "/svelte_testing/_app/immutable/start-04efb02e.js";
+		<script type="module" data-sveltekit-hydrate="1quxapa">
+		import { set_public_env, start } from "/svelte_testing/_app/immutable/start-37b4d617.js";
 
 		set_public_env({});
 
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="17japc2"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="1quxapa"]').parentNode,
 			paths: {"base":"/svelte_testing","assets":"/svelte_testing"},
 			route: true,
 			spa: false,
@@ -51,7 +50,7 @@
 			}
 		});
 	</script>
-	
+	<script type="application/json" sveltekit:data-type="data" sveltekit:data-url="https://api.themoviedb.org/3/search/movie?api_key=22a2b619b5fe2221f6c9e2a24e7a28dd&amp;language=en-US&amp;page=1&amp;include_adult=false&amp;query=undefined">{"status":200,"statusText":"OK","headers":{"access-control-allow-methods":"GET, HEAD, POST, PUT, DELETE, OPTIONS","access-control-allow-origin":"*","access-control-expose-headers":"ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range","age":"571","alt-svc":"h3=\":443\"; ma=86400","cache-control":"public, max-age=600","connection":"keep-alive","content-encoding":"br","content-type":"application/json;charset=utf-8","date":"Wed, 24 Aug 2022 15:09:01 GMT","server":"openresty","transfer-encoding":"chunked","vary":"Accept-Encoding","via":"1.1 b628f98550657c74cdb098257ee7a19a.cloudfront.net (CloudFront)","x-amz-cf-id":"nPYmFk-Gg6SGtbZBvqT_oTthXvHrVsXr-VktAOcZL48t4GjhyhW-eg==","x-amz-cf-pop":"TPE51-C1","x-cache":"Hit from cloudfront"},"body":"{\"page\":1,\"results\":[{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[18,27,9648],\"id\":680304,\"original_language\":\"en\",\"original_title\":\"UNdefined\",\"overview\":\"Melancholy and loneliness, oppressed by its true misshapen and undefined form.\",\"popularity\":1.02,\"poster_path\":\"/tzve3LD534wsCnhOrSqgJ1mnRma.jpg\",\"release_date\":\"\",\"title\":\"UNdefined\",\"video\":false,\"vote_average\":4.9,\"vote_count\":6},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[10402],\"id\":954884,\"original_language\":\"zh\",\"original_title\":\"张韶涵“Undefined未定义”线上音乐会\",\"overview\":\"\",\"popularity\":0.6,\"poster_path\":\"/ljIwC5VyEu97IsE58MTQzoUOlhq.jpg\",\"release_date\":\"2020-08-02\",\"title\":\"张韶涵“Undefined未定义”线上音乐会\",\"video\":true,\"vote_average\":0,\"vote_count\":0}],\"total_pages\":1,\"total_results\":2}"}</script>
 </body>
 
 </html>
