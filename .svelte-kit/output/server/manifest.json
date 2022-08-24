@@ -1,0 +1,84 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-0d7e3173.js"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0d7e3173.js"
+    ],
+    "css": [
+      "assets/entries/pages/__layout.svelte-0691062f.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/pages/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0d7e3173.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0d7e3173.js",
+      "_MovieCard-71d66bc2.js"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-d8c3d6cf.css"
+    ]
+  },
+  "src/routes/search/[id].svelte": {
+    "file": "entries/pages/search/_id_.svelte.js",
+    "src": "src/routes/search/[id].svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0d7e3173.js",
+      "_MovieCard-71d66bc2.js"
+    ],
+    "css": [
+      "assets/entries/pages/search/_id_.svelte-4c790ca7.css"
+    ]
+  },
+  "src/routes/movie/index.svelte": {
+    "file": "entries/pages/movie/index.svelte.js",
+    "src": "src/routes/movie/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0d7e3173.js"
+    ]
+  },
+  "src/routes/movie/[id].svelte": {
+    "file": "entries/pages/movie/_id_.svelte.js",
+    "src": "src/routes/movie/[id].svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0d7e3173.js"
+    ],
+    "css": [
+      "assets/entries/pages/movie/_id_.svelte-069df710.css"
+    ]
+  },
+  "_index-0d7e3173.js": {
+    "file": "chunks/index-0d7e3173.js"
+  },
+  "_MovieCard-71d66bc2.js": {
+    "file": "chunks/MovieCard-71d66bc2.js",
+    "imports": [
+      "_index-0d7e3173.js"
+    ],
+    "css": [
+      "assets/MovieCard-9ec2608f.css"
+    ]
+  }
+}
