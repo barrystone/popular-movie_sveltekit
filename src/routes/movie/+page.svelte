@@ -1,2 +1,1 @@
-<h1>movie</h1>
-<h2>root</h2>
+<h1>Movie</h1>
