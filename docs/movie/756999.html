@@ -9,15 +9,15 @@
 	<meta http-equiv="content-security-policy" content=""><title>Popular Movie</title>
 	<link href="/svelte_testing/_app/immutable/assets/+layout-c2d7af1c.css" rel="stylesheet">
 	<link href="/svelte_testing/_app/immutable/assets/+page-af25702d.css" rel="stylesheet">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/start-6a7b1c32.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/start-303a6737.js">
 	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/index-b4eb67ee.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/singletons-0a91c3b5.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/singletons-418d216c.js">
 	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/paths-6cd3a76e.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/_layout.svelte-0ae57947.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/stores-05b9c5ce.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/movie/_id_/_page.svelte-91656dc2.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/modules/pages/movie/_id_/_page.js-70ed0c36.js">
-	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/_page-3a856f02.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/_layout.svelte-2183b2cf.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/stores-9d4b6ae6.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/components/pages/movie/_slug_/_page.svelte-25f38b18.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/modules/pages/movie/_slug_/_page.js-4c24450c.js">
+	<link rel="modulepreload" href="/svelte_testing/_app/immutable/chunks/_page-6a99f9a5.js">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 
 
 
-<nav class="svelte-1e9i6a1"><a href="/svelte_testing/" class="svelte-1e9i6a1">Back to Home</a>
+<nav class="svelte-1e9i6a1"><a href="/svelte_testing" class="svelte-1e9i6a1">Back to Home</a>
 </nav>
 <div class="movie-details svelte-s71tqd"><div class="img-container svelte-s71tqd"><img src="https://image.tmdb.org/t/p/original//AfvIjhDu9p64jKcmohS4hsPG95Q.jpg" alt="The Black Phone" class="svelte-s71tqd"></div>
   <div class="txt-container"><h1 class="svelte-s71tqd">The Black Phone</h1>
@@ -44,13 +44,13 @@
 
 
 
-		<script type="module" data-sveltekit-hydrate="19216lk">
-		import { set_public_env, start } from "/svelte_testing/_app/immutable/start-6a7b1c32.js";
+		<script type="module" data-sveltekit-hydrate="thjtc7">
+		import { set_public_env, start } from "/svelte_testing/_app/immutable/start-303a6737.js";
 
 		set_public_env({});
 
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="19216lk"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="thjtc7"]').parentNode,
 			paths: {"base":"/svelte_testing","assets":"/svelte_testing"},
 			route: true,
 			spa: false,
@@ -59,12 +59,13 @@
 				status: 200,
 				error: null,
 				node_ids: [0, 4],
-				params: {id:"756999"},
-				routeId: "movie/[id]"
+				params: {slug:"756999"},
+				routeId: "movie/[slug]"
 			}
 		});
 	</script>
-	<script type="application/json" sveltekit:data-type="data" sveltekit:data-url="https://api.themoviedb.org/3/movie/756999?api_key=22a2b619b5fe2221f6c9e2a24e7a28dd&amp;language=en-US">{"status":200,"statusText":"OK","headers":{"access-control-allow-methods":"GET, HEAD, POST, PUT, DELETE, OPTIONS","access-control-allow-origin":"*","access-control-expose-headers":"ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range","age":"3278","alt-svc":"h3=\":443\"; ma=86400","cache-control":"public, max-age=28800","connection":"keep-alive","content-encoding":"gzip","content-type":"application/json;charset=utf-8","date":"Wed, 24 Aug 2022 10:57:48 GMT","server":"openresty","transfer-encoding":"chunked","vary":"Accept-Encoding","via":"1.1 efd481542a303e167a3110e3c0ffee24.cloudfront.net (CloudFront)","x-amz-cf-id":"k_6ItAJDP-Qu4n-fYDobyRsaZpDZWZTjon0kkrbfkCqnRC6wXZdTFA==","x-amz-cf-pop":"TPE51-C1","x-cache":"Hit from cloudfront","x-memc":"HIT","x-memc-age":"7519","x-memc-expires":"8324","x-memc-key":"f893f795f453ac09a0c1ad3e52344ffaa845972d"},"body":"{\"adult\":false,\"backdrop_path\":\"/AfvIjhDu9p64jKcmohS4hsPG95Q.jpg\",\"belongs_to_collection\":null,\"budget\":18800000,\"genres\":[{\"id\":27,\"name\":\"Horror\"},{\"id\":53,\"name\":\"Thriller\"}],\"homepage\":\"https://www.theblackphonemovie.com/\",\"id\":756999,\"imdb_id\":\"tt7144666\",\"original_language\":\"en\",\"original_title\":\"The Black Phone\",\"overview\":\"Finney Blake, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.\",\"popularity\":2323.16,\"poster_path\":\"/lr11mCT85T1JanlgjMuhs9nMht4.jpg\",\"production_companies\":[{\"id\":33,\"logo_path\":\"/8lvHyhjr8oUKOOy2dKXoALWKdp0.png\",\"name\":\"Universal Pictures\",\"origin_country\":\"US\"},{\"id\":3172,\"logo_path\":\"/kDedjRZwO8uyFhuHamomOhN6fzG.png\",\"name\":\"Blumhouse Productions\",\"origin_country\":\"US\"},{\"id\":162439,\"logo_path\":null,\"name\":\"Crooked Highway\",\"origin_country\":\"\"}],\"production_countries\":[{\"iso_3166_1\":\"US\",\"name\":\"United States of America\"}],\"release_date\":\"2022-06-22\",\"revenue\":153000000,\"runtime\":103,\"spoken_languages\":[{\"english_name\":\"English\",\"iso_639_1\":\"en\",\"name\":\"English\"},{\"english_name\":\"German\",\"iso_639_1\":\"de\",\"name\":\"Deutsch\"}],\"status\":\"Released\",\"tagline\":\"Never talk to strangers.\",\"title\":\"The Black Phone\",\"video\":false,\"vote_average\":7.957,\"vote_count\":2073}"}</script>
+	<script type="application/json" sveltekit:data-type="data" sveltekit:data-url="https://api.themoviedb.org/3/movie/756999?api_key=22a2b619b5fe2221f6c9e2a24e7a28dd&amp;language=en-US">{"status":200,"statusText":"OK","headers":{"access-control-allow-methods":"GET, HEAD, POST, PUT, DELETE, OPTIONS","access-control-allow-origin":"*","access-control-expose-headers":"ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range","age":"8675","alt-svc":"h3=\":443\"; ma=86400","cache-control":"public, max-age=28800","connection":"keep-alive","content-encoding":"gzip","content-type":"application/json;charset=utf-8","date":"Wed, 24 Aug 2022 10:57:48 GMT","server":"openresty","transfer-encoding":"chunked","vary":"Accept-Encoding","via":"1.1 52ca47c2c23bcce484a3eafac368baea.cloudfront.net (CloudFront)","x-amz-cf-id":"6G5H-R9wHVa9oofWl6qLZOj2RDjAwvSZQJGwjQIWjg101rcoBC4Ibg==","x-amz-cf-pop":"TPE51-C1","x-cache":"Hit from cloudfront","x-memc":"HIT","x-memc-age":"7519","x-memc-expires":"8324","x-memc-key":"f893f795f453ac09a0c1ad3e52344ffaa845972d"},"body":"{\"adult\":false,\"backdrop_path\":\"/AfvIjhDu9p64jKcmohS4hsPG95Q.jpg\",\"belongs_to_collection\":null,\"budget\":18800000,\"genres\":[{\"id\":27,\"name\":\"Horror\"},{\"id\":53,\"name\":\"Thriller\"}],\"homepage\":\"https://www.theblackphonemovie.com/\",\"id\":756999,\"imdb_id\":\"tt7144666\",\"original_language\":\"en\",\"original_title\":\"The Black Phone\",\"overview\":\"Finney Blake, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.\",\"popularity\":2323.16,\"poster_path\":\"/lr11mCT85T1JanlgjMuhs9nMht4.jpg\",\"production_companies\":[{\"id\":33,\"logo_path\":\"/8lvHyhjr8oUKOOy2dKXoALWKdp0.png\",\"name\":\"Universal Pictures\",\"origin_country\":\"US\"},{\"id\":3172,\"logo_path\":\"/kDedjRZwO8uyFhuHamomOhN6fzG.png\",\"name\":\"Blumhouse Productions\",\"origin_country\":\"US\"},{\"id\":162439,\"logo_path\":null,\"name\":\"Crooked Highway\",\"origin_country\":\"\"}],\"production_countries\":[{\"iso_3166_1\":\"US\",\"name\":\"United States of America\"}],\"release_date\":\"2022-06-22\",\"revenue\":153000000,\"runtime\":103,\"spoken_languages\":[{\"english_name\":\"English\",\"iso_639_1\":\"en\",\"name\":\"English\"},{\"english_name\":\"German\",\"iso_639_1\":\"de\",\"name\":\"Deutsch\"}],\"status\":\"Released\",\"tagline\":\"Never talk to strangers.\",\"title\":\"The Black Phone\",\"video\":false,\"vote_average\":7.957,\"vote_count\":2073}"}</script>
+	<script type="application/json" sveltekit:data-type="server_data">[null,{"type":"data","data":{"movieDetail":null},"uses":{}}]</script>
 </body>
 
 </html>

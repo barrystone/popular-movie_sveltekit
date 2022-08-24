@@ -1,15 +1,15 @@
 <script>
   import { page } from '$app/stores';
+  import { base } from '$app/paths';
   // import { onMount } from 'svelte';
   // onMount(() => {
   // 	console.log($page);
   // });
-  $: title = $page.url.pathname === '/' ? 'HOME' : 'Back to Home';
-  import { base } from '$app/paths';
+  $: title = $page.url.pathname === `${base}` ? 'HOME' : 'Back to Home';
 </script>
 
 <nav>
-  <a href="{base}/">
+  <a href={base}>
     {title}
   </a>
 </nav>
