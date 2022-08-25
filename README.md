@@ -20,7 +20,7 @@ Use [sveltekit](https://kit.svelte.dev/) framwork to develope a popular movie li
 
 This project was developed from [Dev Ed](https://www.youtube.com/watch?v=ydR_M0fw9Xc&ab_channel=DevEd)
 
-#### screenshot
+### screenshot
 
 <div style="display:flex; justify-content:center; flex-direction:column; text-align:center">
 
