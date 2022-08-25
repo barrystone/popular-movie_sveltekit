@@ -1,38 +1,21 @@
-# create-svelte
+# popular-movie_sveltekit
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+**v2** is the lastest version of branchs (apply vitejs & new rule).
 
-## Creating a project
+| branch   | branch intro                            |
+| :------- | :-------------------------------------- |
+| original | Root prototype.                         |
+| v2       | Latest version, deploy on github pages. |
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Intro
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Use [sveltekit](https://kit.svelte.dev/) framwork to develope a popular movie lists.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Features
 
-## Developing
+- View popular movies for recently.
+- Search the movie ( up to 1 page ).
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Notes
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project was developed from [Dev Ed](https://www.youtube.com/watch?v=ydR_M0fw9Xc&ab_channel=DevEd)
