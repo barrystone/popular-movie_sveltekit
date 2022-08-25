@@ -11,6 +11,8 @@
 
 Use [sveltekit](https://kit.svelte.dev/) framwork to develope a popular movie lists.
 
+Demo: https://barrystone.github.io/popular-movie_sveltekit/
+
 ## Features
 
 - View popular movies for recently.
